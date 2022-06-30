@@ -15,7 +15,6 @@ function countAnimals(...animal) {
 
   if (parameters.includes('female') || parameters.includes('male')) return speciesSex.length;
   if (speciesName) return speciesName.residents.length;
-  return animal;
 }
 
 module.exports = countAnimals;
